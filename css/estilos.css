@@ -93,6 +93,17 @@ strong{
     flex-direction: row;
     justify-content: center;
 }
+.projects__articles div a{
+    color: #00ace6;
+    text-decoration: none;
+}
+.projects__articles div ul{
+    margin-left: 10px;
+}
+.projects__articles figure img{
+    width: 30vw;
+
+}
 .contact__container{
     width: 80%;
     margin: auto;
@@ -104,6 +115,9 @@ strong{
     .projects__articles{
         flex-wrap:wrap;
         margin: 0;
+        margin-bottom:4em ;
+    }.projects__articles figure img{
+        width: 60vw;
     }
     
 }
@@ -111,6 +125,8 @@ strong{
     .contact__container{
         flex-wrap: wrap;
         justify-content: center;
+    }.projects__articles div{
+        font-size: 13px;
     }
 }
 
